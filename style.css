@@ -1,4 +1,4 @@
-h1.title {
+.title {
 
 position: absolute;
 width: 218px;
@@ -49,4 +49,42 @@ width: 938px;
 height: 1188px;
 left: 270px;
 top: -130px;
+}
+
+@media(max-width: 1024px){
+
+	.little,
+	.title,
+	.subtitle,
+	.large {
+	    position: relative;
+	    top: unset;
+	    left: unset;
+	    text-align: center;
+	    margin: auto;
+	}
+
+	.mini-div-logo {
+		display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    margin-top: 39px;
+	}
+
+	.mini-div-titles {
+		margin-top: 14px;
+	}
+
+	.large-pharaon {
+		display: flex;
+	    align-items: center;
+	    overflow: hidden;
+	    width: 300vw;
+	    position: fixed;
+	    margin-top: 26px;
+	}
+	.large {
+		width: 100%;
+    	transform: translate(-33.333333333333%);
+	}
 }
