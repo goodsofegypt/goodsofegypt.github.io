@@ -51,7 +51,7 @@ left: 270px;
 top: -130px;
 }
 
-@media(max-width: 1024px){
+@media(max-width: 1023px){
 
 	.little,
 	.title,
@@ -93,18 +93,10 @@ top: -130px;
 	.mini-div-titles {
 		margin-top: 14px;
 	}
-
-	.large-pharaon {
-		display: flex;
-	    align-items: center;
-	    overflow: hidden;
-	    width: 300vw;
-	    position: fixed;
-	    margin-top: 26px;
-	}
 	.large {
-		width: 100%;
-    	transform: translate(-33.333333333333%);
-    	height: 77vh;
+	width: 170%;
+    height: 125%;
+    position: fixed;
+    left: -35%;
 	}
 }
