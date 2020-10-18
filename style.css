@@ -64,6 +64,25 @@ top: -130px;
 	    margin: auto;
 	}
 
+	.little {
+		width: 30vw;
+    	height: auto;
+	}
+
+	.title {
+		font-size: 3em;
+	    width: unset;
+	    height: unset;
+	}
+
+	.subtitle {
+	    width: unset;
+	    height: unset;
+	    font-size: 1.6em;
+	    line-height: 2em;
+	}
+
+
 	.mini-div-logo {
 		display: flex;
 	    flex-direction: column;
@@ -86,5 +105,6 @@ top: -130px;
 	.large {
 		width: 100%;
     	transform: translate(-33.333333333333%);
+    	height: 77vh;
 	}
 }
